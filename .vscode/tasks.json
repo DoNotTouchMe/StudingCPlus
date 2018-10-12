@@ -8,8 +8,13 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "-g", "hello.cpp"
-            ]
+                "-g",
+                "hello.cpp"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }
