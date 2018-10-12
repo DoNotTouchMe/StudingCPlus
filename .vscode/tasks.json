@@ -6,7 +6,10 @@
         {
             "label": "echo",
             "type": "shell",
-            "command": "echo Hello"
+            "command": "g++",
+            "args": [
+                "-g", "hello.cpp"
+            ]
         }
     ]
 }
