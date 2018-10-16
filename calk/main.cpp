@@ -1,6 +1,5 @@
 #include <iostream>
 #include<string>
-#include<Windows.h>
 using namespace std;
 
 int main(int argc, const char * argv[]){
@@ -14,8 +13,6 @@ int main(int argc, const char * argv[]){
     string multi = "multi";
     string divis = "divis";
 
-    SetConsoleCP(1251);
-    SetConsoleOutputCP(1251);
     cout << "Insert the number." <<endl;
     cin >> num1;
     cout << "Enter operator: sum for sum, divis for division, differ for difference or multi for multiplication." <<endl;
